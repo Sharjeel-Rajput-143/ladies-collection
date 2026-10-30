@@ -7,6 +7,8 @@ type Result = { ok: true; value: StoredCatalog } | { ok: false; error: string };
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const CODE = /^[A-Za-z0-9][A-Za-z0-9-]{1,23}$/;
 const UPLOAD = /^\/uploads\/[a-f0-9]{16}\.(?:jpg|png|webp)$/;
+// A photo committed to the repo at public/products/<file>, as the README documents.
+const PRODUCT_FILE = /^\/products\/[a-z0-9][a-z0-9-]*\.(?:jpg|jpeg|png|webp)$/;
 
 const text = (value: unknown, max: number): string | null =>
   typeof value === "string" ? value.trim().slice(0, max) : null;
@@ -64,7 +66,7 @@ export function sanitizeCatalog(input: unknown): Result {
     if (!category || !categoryIds.has(category)) return { ok: false, error: `Product ${id} has no valid category.` };
     if (!title) return { ok: false, error: `Product ${id} needs a title.` };
     if (description === null) return { ok: false, error: `Product ${id} has an invalid description.` };
-    if (!image || !(/^https:\/\/[^\s]+$/.test(image) || UPLOAD.test(image))) {
+    if (!image || !(/^https:\/\/[^\s]+$/.test(image) || UPLOAD.test(image) || PRODUCT_FILE.test(image))) {
       return { ok: false, error: `Product "${title}" needs a photo (upload one or paste an https link).` };
     }
     const specs = Array.isArray(p.specs)
