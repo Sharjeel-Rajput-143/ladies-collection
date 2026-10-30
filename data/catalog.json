@@ -1,5 +1,5 @@
 {
-  "rev": 1,
+  "rev": 2,
   "categories": [
     {
       "id": "lawn",
@@ -31,33 +31,49 @@
       "id": "LWN-101",
       "category": "lawn",
       "title": "Embroidered 3-Piece Lawn Suit",
-      "description": "Printed lawn shirt with embroidered neckline, matching dupatta and trouser.",
-      "specs": ["3 piece", "Unstitched", "Embroidered neckline"],
+      "description": "Printed lawn shirt with embroidered neckline, matching dupatta and trouser. Unstitched, cut to your size by your own tailor.",
+      "specs": ["Unstitched", "3 piece", "Embroidered neckline"],
       "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1600&q=80"
     },
     {
       "id": "LWN-102",
       "category": "lawn",
       "title": "Digital Print Lawn Suit",
-      "description": "Vibrant digital printed lawn with chiffon dupatta, perfect for everyday wear.",
-      "specs": ["3 piece", "Unstitched", "Chiffon dupatta"],
+      "description": "Vibrant digital printed lawn with chiffon dupatta, perfect for everyday wear. Unstitched fabric.",
+      "specs": ["Unstitched", "3 piece", "Chiffon dupatta"],
       "image": "https://images.unsplash.com/photo-1583391733956-6c78276477e1?auto=format&fit=crop&w=1600&q=80"
     },
     {
       "id": "LWN-103",
       "category": "lawn",
       "title": "Festive Lawn Suit",
-      "description": "Festive-collection lawn suit with heavy embroidered front and sleeves.",
-      "specs": ["3 piece", "Unstitched", "Heavy embroidery"],
+      "description": "Festive-collection lawn suit with heavy embroidered front and sleeves. Unstitched fabric.",
+      "specs": ["Unstitched", "3 piece", "Heavy embroidery"],
       "image": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?auto=format&fit=crop&w=1600&q=80"
     },
     {
       "id": "LWN-104",
       "category": "lawn",
       "title": "Pastel Lawn Suit",
-      "description": "Soft pastel tones with delicate thread work, light enough for summer days.",
-      "specs": ["3 piece", "Unstitched"],
+      "description": "Soft pastel tones with delicate thread work, light enough for summer days. Unstitched fabric.",
+      "specs": ["Unstitched", "3 piece"],
       "image": "https://images.unsplash.com/photo-1583391733981-8498408ee6ec?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "LWN-105",
+      "category": "lawn",
+      "title": "Stitched Embroidered Lawn Suit",
+      "description": "Same embroidered lawn design, tailored and ready to wear in your size.",
+      "specs": ["Stitched", "3 piece", "Available sizes S to XL"],
+      "image": "https://images.unsplash.com/photo-1617019114935-0ad7c0e3c0a5?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "LWN-106",
+      "category": "lawn",
+      "title": "Stitched Printed Lawn Suit",
+      "description": "Printed lawn suit, stitched and ready to wear, no tailoring wait.",
+      "specs": ["Stitched", "3 piece", "Available sizes S to XL"],
+      "image": "https://images.unsplash.com/photo-1583391734013-a4a4c7e9a9e9?auto=format&fit=crop&w=1600&q=80"
     },
     {
       "id": "KUR-201",
@@ -84,11 +100,19 @@
       "image": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?auto=format&fit=crop&w=1600&q=80"
     },
     {
+      "id": "KUR-204",
+      "category": "kurti",
+      "title": "Unstitched Kurti Fabric",
+      "description": "Printed kurti fabric, unstitched, cut to your own length and fit.",
+      "specs": ["Unstitched", "2.5 meters"],
+      "image": "https://images.unsplash.com/photo-1583391733981-8498408ee6ec?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
       "id": "ABY-301",
       "category": "abaya",
       "title": "Classic Black Abaya",
       "description": "Flowing black abaya in premium nida fabric with simple lace trim.",
-      "specs": ["Nida fabric", "Free size", "Lace trim"],
+      "specs": ["Stitched", "Nida fabric", "Free size", "Lace trim"],
       "image": "https://images.unsplash.com/photo-1590650046871-92c887180603?auto=format&fit=crop&w=1600&q=80"
     },
     {
@@ -96,7 +120,7 @@
       "category": "abaya",
       "title": "Embroidered Front Open Abaya",
       "description": "Front-open abaya with embroidered panel down the front, worn over any outfit.",
-      "specs": ["Nida fabric", "Front open", "Embroidered panel"],
+      "specs": ["Stitched", "Nida fabric", "Front open", "Embroidered panel"],
       "image": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?auto=format&fit=crop&w=1600&q=80"
     },
     {
@@ -104,7 +128,7 @@
       "category": "abaya",
       "title": "Butterfly Abaya",
       "description": "Wide butterfly-cut abaya, light and breathable for everyday modest wear.",
-      "specs": ["Crepe fabric", "Butterfly cut"],
+      "specs": ["Stitched", "Crepe fabric", "Butterfly cut"],
       "image": "https://images.unsplash.com/photo-1583391733981-8498408ee6ec?auto=format&fit=crop&w=1600&q=80"
     },
     {

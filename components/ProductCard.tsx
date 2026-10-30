@@ -7,6 +7,13 @@ import ProductImage from "./ProductImage";
 import { useShop } from "./ShopProvider";
 import WhatsAppLink from "./WhatsAppLink";
 
+/** "Stitched" / "Unstitched" is shown as the card badge when it's the first spec; otherwise a generic label. */
+function stitchBadge(product: Product): string {
+  const first = product.specs[0]?.toLowerCase();
+  if (first === "stitched" || first === "unstitched") return product.specs[0];
+  return "Made to order";
+}
+
 export default function ProductCard({ product, index }: { product: Product; index: number }) {
   const { isSaved, toggleSave } = useShop();
   const saved = isSaved(product.id);
@@ -19,7 +26,7 @@ export default function ProductCard({ product, index }: { product: Product; inde
           alt={product.title}
           sizes="(min-width: 1100px) 300px, (min-width: 760px) 30vw, 50vw"
         />
-        <span className="chip">Made to order</span>
+        <span className="chip">{stitchBadge(product)}</span>
         <button
           type="button"
           className={`heart${saved ? " is-saved" : ""}`}
