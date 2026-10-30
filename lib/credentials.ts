@@ -6,8 +6,8 @@ import { CatalogError, ghRead, ghWrite, storageMode } from "./catalog";
 
 // Built-in owner login. The ADMIN_USERNAME / ADMIN_PASSWORD environment variables override these, and a password
 // the owner sets from the panel (saved in data/auth.json) overrides both. Passwords are only ever stored as scrypt hashes.
-const DEFAULT_USERNAME = "Owner";
-const DEFAULT_PASSWORD_HASH = "scrypt:391b36480598eba193f7c6bedd05259f:98290a5937e31e218bfb67df0fa12036cea8bed2a0c12e4c1c5b075493a8a808056b48c52778d5e311e62439855ca497d5c8f07a467b332830adfe0b39118bf7";
+const DEFAULT_USERNAME = "admin";
+const DEFAULT_PASSWORD_HASH = "scrypt:0fe07b439f014ca3955b6c85cd3fcab6:0560537d5c6165097ed7e06cab4d0d319f26c7df4620e4887a87520311c40491f622d410ef9019a75949bed4d1ace7ade4e599ac8767de33733b6f25181fe975";
 
 const AUTH_FILE = path.join(process.cwd(), "data", "auth.json");
 const GH_AUTH_PATH = "data/auth.json";
