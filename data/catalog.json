@@ -1,5 +1,5 @@
 {
-  "rev": 4,
+  "rev": 5,
   "categories": [
     {
       "id": "lawn",
@@ -33,7 +33,7 @@
       "title": "Embroidered 3-Piece Lawn Suit",
       "description": "Printed lawn shirt with embroidered neckline, matching dupatta and trouser. Unstitched, cut to your size by your own tailor.",
       "specs": ["Unstitched", "3 piece", "Embroidered neckline"],
-      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
+      "image": "https://images.unsplash.com/photo-1786596552158-fb0aa2d260ba"
     },
     {
       "id": "LWN-102",
@@ -65,7 +65,7 @@
       "title": "Stitched Embroidered Lawn Suit",
       "description": "Same embroidered lawn design, tailored and ready to wear in your size.",
       "specs": ["Stitched", "3 piece", "Available sizes S to XL"],
-      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
+      "image": "https://images.unsplash.com/photo-1776436817748-f8e10a7e75b0"
     },
     {
       "id": "LWN-106",
@@ -113,7 +113,7 @@
       "title": "Printed Short Kurti",
       "description": "Casual printed short kurti, breathable fabric for daily wear.",
       "specs": ["Stitched", "Short length"],
-      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
+      "image": "https://images.unsplash.com/photo-1759840278381-bf7d5e332050"
     },
     {
       "id": "KUR-204",
