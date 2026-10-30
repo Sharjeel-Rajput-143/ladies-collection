@@ -1,5 +1,5 @@
 {
-  "rev": 3,
+  "rev": 4,
   "categories": [
     {
       "id": "lawn",
@@ -33,7 +33,7 @@
       "title": "Embroidered 3-Piece Lawn Suit",
       "description": "Printed lawn shirt with embroidered neckline, matching dupatta and trouser. Unstitched, cut to your size by your own tailor.",
       "specs": ["Unstitched", "3 piece", "Embroidered neckline"],
-      "image": "/products/lwn-101.jpg"
+      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
     },
     {
       "id": "LWN-102",
@@ -41,7 +41,7 @@
       "title": "Digital Print Lawn Suit",
       "description": "Vibrant digital printed lawn with chiffon dupatta, perfect for everyday wear. Unstitched fabric.",
       "specs": ["Unstitched", "3 piece", "Chiffon dupatta"],
-      "image": "/products/lwn-102.jpg"
+      "image": "https://images.unsplash.com/photo-1759840278381-bf7d5e332050"
     },
     {
       "id": "LWN-103",
@@ -49,7 +49,7 @@
       "title": "Festive Lawn Suit",
       "description": "Festive-collection lawn suit with heavy embroidered front and sleeves. Unstitched fabric.",
       "specs": ["Unstitched", "3 piece", "Heavy embroidery"],
-      "image": "/products/lwn-103.jpg"
+      "image": "https://images.unsplash.com/photo-1786596552158-fb0aa2d260ba"
     },
     {
       "id": "LWN-104",
@@ -57,7 +57,7 @@
       "title": "Pastel Lawn Suit",
       "description": "Soft pastel tones with delicate thread work, light enough for summer days. Unstitched fabric.",
       "specs": ["Unstitched", "3 piece"],
-      "image": "/products/lwn-104.jpg"
+      "image": "https://images.unsplash.com/photo-1776436817748-f8e10a7e75b0"
     },
     {
       "id": "LWN-105",
@@ -65,7 +65,7 @@
       "title": "Stitched Embroidered Lawn Suit",
       "description": "Same embroidered lawn design, tailored and ready to wear in your size.",
       "specs": ["Stitched", "3 piece", "Available sizes S to XL"],
-      "image": "/products/lwn-105.jpg"
+      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
     },
     {
       "id": "LWN-106",
@@ -73,7 +73,7 @@
       "title": "Stitched Printed Lawn Suit",
       "description": "Printed lawn suit, stitched and ready to wear, no tailoring wait.",
       "specs": ["Stitched", "3 piece", "Available sizes S to XL"],
-      "image": "/products/lwn-106.jpg"
+      "image": "https://images.unsplash.com/photo-1759840278381-bf7d5e332050"
     },
     {
       "id": "LWN-107",
@@ -81,7 +81,7 @@
       "title": "Schiffli Embroidered Lawn Suit",
       "description": "Fine schiffli embroidery on soft lawn, with an organza dupatta. Unstitched, a festive-season favourite.",
       "specs": ["Unstitched", "3 piece", "Schiffli embroidery", "Organza dupatta"],
-      "image": "/products/lwn-107.jpg"
+      "image": "https://images.unsplash.com/photo-1786596552096-c782a23e00b3"
     },
     {
       "id": "LWN-108",
@@ -89,7 +89,7 @@
       "title": "Karandi Winter Suit",
       "description": "Warm karandi fabric with embroidered front and border, for cooler months. Unstitched.",
       "specs": ["Unstitched", "3 piece", "Karandi fabric", "Winter wear"],
-      "image": "/products/lwn-108.jpg"
+      "image": "https://images.unsplash.com/photo-1786596552158-fb0aa2d260ba"
     },
     {
       "id": "KUR-201",
@@ -97,7 +97,7 @@
       "title": "Embroidered A-Line Kurti",
       "description": "Stitched A-line kurti with embroidered front panel. Ready to wear.",
       "specs": ["Stitched", "A-line cut", "Available sizes S to XL"],
-      "image": "/products/kur-201.jpg"
+      "image": "https://images.unsplash.com/photo-1776436817748-f8e10a7e75b0"
     },
     {
       "id": "KUR-202",
@@ -105,7 +105,7 @@
       "title": "Straight Cut Kurti",
       "description": "Simple straight-cut kurti in soft lawn fabric, easy to pair with any bottom.",
       "specs": ["Stitched", "Straight cut"],
-      "image": "/products/kur-202.jpg"
+      "image": "https://images.unsplash.com/photo-1759840278381-bf7d5e332050"
     },
     {
       "id": "KUR-203",
@@ -113,7 +113,7 @@
       "title": "Printed Short Kurti",
       "description": "Casual printed short kurti, breathable fabric for daily wear.",
       "specs": ["Stitched", "Short length"],
-      "image": "/products/kur-203.jpg"
+      "image": "https://images.unsplash.com/photo-1790499401365-24d8268efe7f"
     },
     {
       "id": "KUR-204",
@@ -121,7 +121,7 @@
       "title": "Unstitched Kurti Fabric",
       "description": "Printed kurti fabric, unstitched, cut to your own length and fit.",
       "specs": ["Unstitched", "2.5 meters"],
-      "image": "/products/kur-204.jpg"
+      "image": "https://images.unsplash.com/photo-1786596552096-c782a23e00b3"
     },
     {
       "id": "KUR-205",
@@ -129,7 +129,7 @@
       "title": "Cambric Embroidered Kurti",
       "description": "Soft cambric kurti with embroidered yoke, comfortable for everyday wear. Ready to wear.",
       "specs": ["Stitched", "Cambric fabric", "Embroidered yoke", "Available sizes S to XL"],
-      "image": "/products/kur-205.jpg"
+      "image": "https://images.unsplash.com/photo-1786596552158-fb0aa2d260ba"
     },
     {
       "id": "ABY-301",
@@ -169,7 +169,7 @@
       "title": "Embellished Party Dress",
       "description": "Statement party dress with hand embellishment on the bodice.",
       "specs": ["Stitched", "Hand embellished", "Made to order sizes"],
-      "image": "/products/drs-401.jpg"
+      "image": "https://images.unsplash.com/photo-1768767112566-dc12dbe40aae"
     },
     {
       "id": "DRS-402",
@@ -177,7 +177,7 @@
       "title": "Chiffon Maxi Dress",
       "description": "Flowing chiffon maxi with layered dupatta, suited for evening events.",
       "specs": ["Stitched", "Chiffon", "Layered dupatta"],
-      "image": "/products/drs-402.jpg"
+      "image": "https://images.unsplash.com/photo-1763625639146-1d815371c289"
     },
     {
       "id": "DRS-403",
@@ -185,7 +185,7 @@
       "title": "Velvet Formal Dress",
       "description": "Rich velvet formal dress with gold thread detailing for winter events.",
       "specs": ["Stitched", "Velvet", "Gold thread work"],
-      "image": "/products/drs-403.jpg"
+      "image": "https://images.unsplash.com/photo-1756483510820-4b9302a27556"
     },
     {
       "id": "DRS-404",
@@ -193,7 +193,7 @@
       "title": "Organza Party Dress",
       "description": "Layered organza dress with delicate hand embroidery, built for wedding season.",
       "specs": ["Stitched", "Organza", "Hand embroidery", "Made to order sizes"],
-      "image": "/products/drs-404.jpg"
+      "image": "https://images.unsplash.com/photo-1760328249113-31c07547aea8"
     }
   ],
   "videos": []
